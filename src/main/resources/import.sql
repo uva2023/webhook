@@ -1,0 +1,11 @@
+INSERT INTO temas (nombre, nivel, contenido, enlace) VALUES ('Pentagrama', 0, 'El pentagrama o pauta musical es un conjunto de cinco líneas horizontales paralelas y equidistantes sobre el cual se escriben las notas musicales y otros signos de notación.', 'https://es.wikipedia.org/wiki/Pentagrama');
+INSERT INTO temas (nombre, nivel, contenido, enlace) VALUES ('Escalas', 1, 'La escala musical es un grupo de notas musicales ordenadas, donde dichas notas se ordenarán según su altura, de esta forma, a medida que cada nota de la escala asciende éstas son más agudas, y a medida que descienden, se vuelven más graves.', 'https://www.skoove.com/blog/es/escalas-musicales/');
+INSERT INTO temas (nombre, nivel, contenido, enlace) VALUES ('Acordes', 2, 'Un acorde consiste en un conjunto de dos o más notas diferentes (tocadas al mismo tiempo) y que constituyen una unidad armónica.​ En determinados contextos, un acorde también puede ser percibido como tal aunque no suenen todas sus notas.​ Pueden formarse acordes con las notas de un mismo instrumento o con notas de diferentes instrumentos (incluyendo la voz humana) tocados a la vez, incluso con notas de distintas octavas.', 'https://es.wikipedia.org/wiki/Acorde');
+
+INSERT INTO ejemplos (tema_id, nota, tipo_escala, descripcion, enlace) VALUES (2, 'Do', 'Mayor', 'Do, Re, Mi, Fa, Sol, La, Si, Do', 'https://creatumusica.art/2022/07/02/escala-de-do/');
+INSERT INTO ejemplos (tema_id, nota, tipo_escala, descripcion, enlace) VALUES (2, 'Fa', 'Mayor','Fa, Sol, La, Sib, Do, Re, Mi, Fa',  'https://creatumusica.art/2023/01/25/escala-de-fa/');
+INSERT INTO ejemplos (tema_id, nota, tipo_escala, descripcion, enlace) VALUES (3, 'Do', 'Menor', 'Do, Mib, Sol', 'https://creatumusica.art/2022/04/30/acorde-de-do-menor/');
+
+INSERT INTO ejemplos (tema_id, descripcion, enlace) VALUES (2, 'Do, Re, Mi, Fa, Sol, La, Si, Do', 'https://creatumusica.art/2022/07/02/escala-de-do/');
+INSERT INTO ejemplos (tema_id, descripcion, enlace) VALUES (2, 'Fa, Sol, La, Sib, Do, Re, Mi, Fa',  'https://creatumusica.art/2023/01/25/escala-de-fa/');
+INSERT INTO ejemplos (tema_id, descripcion, enlace) VALUES (3, 'Do, Mib, Sol', 'https://creatumusica.art/2022/04/30/acorde-de-do-menor/');
