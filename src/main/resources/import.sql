@@ -5,7 +5,3 @@ INSERT INTO temas (nombre, nivel, contenido, enlace) VALUES ('Acordes', 2, 'Un a
 INSERT INTO ejemplos (tema_id, nota, tipo_escala, descripcion, enlace) VALUES (2, 'Do', 'Mayor', 'Do, Re, Mi, Fa, Sol, La, Si, Do', 'https://creatumusica.art/2022/07/02/escala-de-do/');
 INSERT INTO ejemplos (tema_id, nota, tipo_escala, descripcion, enlace) VALUES (2, 'Fa', 'Mayor','Fa, Sol, La, Sib, Do, Re, Mi, Fa',  'https://creatumusica.art/2023/01/25/escala-de-fa/');
 INSERT INTO ejemplos (tema_id, nota, tipo_escala, descripcion, enlace) VALUES (3, 'Do', 'Menor', 'Do, Mib, Sol', 'https://creatumusica.art/2022/04/30/acorde-de-do-menor/');
-
-INSERT INTO ejemplos (tema_id, descripcion, enlace) VALUES (2, 'Do, Re, Mi, Fa, Sol, La, Si, Do', 'https://creatumusica.art/2022/07/02/escala-de-do/');
-INSERT INTO ejemplos (tema_id, descripcion, enlace) VALUES (2, 'Fa, Sol, La, Sib, Do, Re, Mi, Fa',  'https://creatumusica.art/2023/01/25/escala-de-fa/');
-INSERT INTO ejemplos (tema_id, descripcion, enlace) VALUES (3, 'Do, Mib, Sol', 'https://creatumusica.art/2022/04/30/acorde-de-do-menor/');
