@@ -263,7 +263,7 @@ public class WebhookRestController {
 					responseText = ejemplo.getDescripcion().concat("\nEnlace externo: ").concat(enlace);
 					
 				} else {
-					responseText = "Lo siento, puedes intentar con otra nota musical y otro tipo de escala.";
+					responseText = "Lo siento, puedes intentar con otro tema de teoría musical.";
 					
 				}
 				
