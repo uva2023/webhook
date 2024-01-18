@@ -41,6 +41,9 @@ public class Tema implements Serializable {
 	
 	@OneToMany(mappedBy = "tema", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
 	private List<Ejemplo> ejemplos;
+	
+	@OneToMany(mappedBy = "tema", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
+	private List<Ejercicio> ejercicios;
 
 	public Tema() {
 		super();
@@ -93,6 +96,14 @@ public class Tema implements Serializable {
 
 	public void setEjemplos(List<Ejemplo> ejemplos) {
 		this.ejemplos = ejemplos;
+	}
+
+	public List<Ejercicio> getEjercicios() {
+		return ejercicios;
+	}
+
+	public void setEjercicios(List<Ejercicio> ejercicios) {
+		this.ejercicios = ejercicios;
 	}
 
 	@Override

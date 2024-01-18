@@ -93,7 +93,7 @@ public class Ejemplo implements Serializable {
 
 	@Override
 	public String toString() {
-		return this.tema + " " +descripcion;
+		return this.tema + " " + this.descripcion;
 	}
 
 }

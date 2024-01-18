@@ -57,7 +57,21 @@
 		    <artifactId>google-api-services-dialogflow</artifactId>
 		    <version>v3-rev20231204-2.0.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/jfugue/jfugue -->
+		<dependency>
+			<groupId>com.github.JensPiegsa</groupId>
+			<artifactId>jfugue</artifactId>
+			<version>5.0.9</version>
+		</dependency>
+
 	</dependencies>
+	
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>

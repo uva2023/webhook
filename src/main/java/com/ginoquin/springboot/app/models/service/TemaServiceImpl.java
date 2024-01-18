@@ -28,8 +28,28 @@ public class TemaServiceImpl implements ITemaService {
 	}
 
 	@Override
-	public Tema fecthByIdWithFacturas(String term) {
-		return this.temaDao.fecthByNombreWithEjemplos(term);
+	public Tema fetchByNombreWithEjemplos(String term) {
+		return this.temaDao.fetchByNombreWithEjemplos(term);
+	}
+
+	@Override
+	public Tema fetchByNombreAndNivelWithEjemplos(String term, Integer nivel) {
+		return this.temaDao.fetchByNombreAndNivelWithEjemplos(term, nivel);
+	}
+
+	@Override
+	public List<Tema> findByNivel(Integer nivel) {
+		return this.temaDao.findByNivel(nivel);
+	}
+
+	@Override
+	public Tema fetchByNombreWithEjercicios(String term) {
+		return this.temaDao.fetchByNombreWithEjercicios(term);
+	}
+
+	@Override
+	public Tema fetchByNombreAndNivelWithEjercicios(String term, Integer nivel) {
+		return this.temaDao.fetchByNombreAndNivelWithEjercicios(term, nivel);
 	}
 	
 }

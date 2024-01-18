@@ -9,6 +9,14 @@ public interface ITemaService {
 	public List<Tema> findAll();
 	public Tema findOne(Long id);
 	
-	public Tema fecthByIdWithFacturas(String term);
+	public Tema fetchByNombreWithEjemplos(String term);
+	
+	public Tema fetchByNombreAndNivelWithEjemplos(String term, Integer nivel);
+	
+	public List<Tema> findByNivel(Integer nivel);
+	
+	public Tema fetchByNombreWithEjercicios(String term);
+	
+	public Tema fetchByNombreAndNivelWithEjercicios(String term, Integer nivel);
 
 }
